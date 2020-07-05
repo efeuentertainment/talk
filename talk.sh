@@ -1,10 +1,12 @@
 #created by ned 01.2017
 #its purpose is to audibly notify the user about the exit code of the last executed command.
 
-#this file was sourced in ~/.bashrc
-#
-#following files link here:
-#
+#this file is sourced in ~/.bashrc using:
+#sourcing talk function
+#if [ -f ~/scripts/functions.sh ]; then
+#  . ~/scripts/functions.sh
+#fi
+
 
 #aplay condition and soundfile link script
 #sound files in
